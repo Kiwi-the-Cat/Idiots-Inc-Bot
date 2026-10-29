@@ -1,0 +1,23 @@
+{
+  "name": "idiotsincbot",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Kiwi-the-Cat/Idiots-Inc-Bot#readme",
+  "bugs": {
+    "url": "https://github.com/Kiwi-the-Cat/Idiots-Inc-Bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiwi-the-Cat/Idiots-Inc-Bot.git"
+  },
+  "license": "GPL-3.0",
+  "author": "Kass",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0"
+  }
+}
