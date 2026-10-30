@@ -1,5 +1,5 @@
 // require the necessary discord.js classes
-const { Client, Events, GatewayIntentBits } = require('discord.js');
+const { Client, Events, GatewayIntentBits, SlashCommandBuilder } = require('discord.js');
 const { token } = require('./config.json');
 
 // create a new client instance
@@ -14,3 +14,5 @@ client.once(Events.ClientReady, (readyClient) => {
 
 // Log in to Discord with your client's token
 client.login(token);
+
+// actual code here
